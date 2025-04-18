@@ -1,5 +1,35 @@
-# simple_rag_on_cpu
-Simple RAG running on laptop
+# Simple RAG Application on CPU
+
+In order to run the code, follow these recommended steps. In our environment, we had Python 3.12 installed.
+
+## Steps to Run the Code
+
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/gitist/simple_rag_on_cpu.git
+    ```
+
+2. **Create a Python virtual environment:**
+    ```sh
+    python -m venv venv
+    ```
+
+3. **Activate the virtual environment and install dependencies:**
+    ```sh
+    source venv/bin/activate
+    pip install -r requirements.txt
+    ```
+
+4. **Run the RAG app**
+    ```sh
+    uvicorn app:app
+    ```
+
+
+To interact with the app, open your browser and visit:
+[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+
+## Workflow Diagram
 ```mermaid
 flowchart TD;
     A[User sends POST /ask with query] --> B[Encode query with SentenceTransformer]
