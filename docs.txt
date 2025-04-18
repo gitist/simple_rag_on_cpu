@@ -1,0 +1,9 @@
+Paris is the capital of France.
+The Eiffel Tower is located in Paris.
+Python is a programming language widely used in AI.
+Transformers are deep learning models developed by Google.
+The Great Wall of China is a historical structure.
+FastAPI is a modern, high-performance web framework for building APIs with Python.
+FAISS is a library for efficient similarity search and clustering of dense vectors.
+Transformers are models used for tasks like translation, question answering, and more.
+
